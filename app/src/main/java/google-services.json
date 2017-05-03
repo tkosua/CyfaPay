@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "854375417243",
+    "project_id": "default-demo-app-24fbc"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:854375417243:android:3002efe182fc37e5",
+        "android_client_info": {
+          "package_name": "com.example.theopsyphertxt.cyfapay"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "854375417243-fkl8nb8lq3uvqj8poabunknp3e5c52e6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.theopsyphertxt.cyfapay",
+            "certificate_hash": "ee697859df1bf5dae8157ad456f6466f03713a67"
+          }
+        },
+        {
+          "client_id": "854375417243-r6dvt9vhfe9hskh5p00daa2bbusirrqk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAhDxPt-BI7q9JU3z3tquIeeCT4kmE68w0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

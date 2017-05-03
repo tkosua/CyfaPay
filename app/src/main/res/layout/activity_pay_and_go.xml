@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <EditText
+            android:id="@+id/text_senderContact"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/hint_your_contact"
+            android:inputType="phone"
+            android:layout_above="@+id/text_receiverContact"
+            android:layout_marginBottom="6dp"
+            android:layout_centerHorizontal="true" />
+
+        <EditText
+            android:id="@+id/text_receiverContact"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/hint_receiver_contact"
+            android:inputType="phone"
+            android:layout_above="@+id/text_amount"
+            android:layout_marginBottom="6dp"
+            android:layout_centerHorizontal="true" />
+
+        <EditText
+            android:id="@+id/text_amount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/hint_amount_owed"
+            android:inputType="numberDecimal"
+            android:layout_above="@+id/text_pincode"
+            android:layout_marginBottom="6dp"
+            android:layout_centerHorizontal="true" />
+
+        <EditText
+            android:id="@+id/text_pincode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/hint_pin_code"
+            android:inputType="numberPassword"
+            android:layout_above="@+id/text_confirmPincode"
+            android:layout_marginBottom="6dp"
+            android:layout_centerHorizontal="true" />
+
+        <EditText
+            android:id="@+id/text_confirmPincode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/hint_confirm_pin"
+            android:inputType="numberDecimal"
+            android:layout_above="@+id/text_email"
+            android:layout_marginBottom="6dp"
+            android:layout_centerHorizontal="true" />
+
+        <EditText
+            android:id="@+id/text_email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/button_pay"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="6dp"
+            android:ems="10"
+            android:hint="@string/hint_email_optional"
+            android:inputType="textEmailAddress" />
+
+        <Button
+            android:id="@+id/button_pay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/button_send"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true" />
+
+    </RelativeLayout>
+
+</LinearLayout>

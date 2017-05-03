@@ -1,0 +1,59 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.theopsyphertxt.cyfapay.SectionsPagerAdapter">
+
+    <TextView
+        android:id="@+id/section_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <EditText
+            android:id="@+id/text_receiverContact"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/hint_receiver_contact"
+            android:inputType="phone"
+            android:layout_centerVertical="true"
+            android:layout_alignStart="@+id/text_pincode" />
+
+        <EditText
+            android:id="@+id/text_amount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/hint_airtime_sent"
+            android:inputType="numberDecimal"
+            android:layout_below="@+id/text_receiverContact"
+            android:layout_alignStart="@+id/text_receiverContact"
+            android:layout_marginTop="14dp" />
+
+        <EditText
+            android:id="@+id/text_pincode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/hint_pin_code"
+            android:inputType="numberPassword"
+            android:layout_marginTop="12dp"
+            android:layout_below="@+id/text_amount"
+            android:layout_centerHorizontal="true" />
+
+        <Button
+            android:id="@+id/button_pay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/button_send"
+            android:layout_below="@+id/text_pincode"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="17dp" />
+
+    </RelativeLayout>
+
+</LinearLayout>

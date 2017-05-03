@@ -1,0 +1,66 @@
+<resources>
+
+    <!-- Manifest strings and the like-->
+    <string name="app_name">CyfaPay</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="title_activity_login">Welcome to CyfaPay!</string>
+    <string name="title_activity_login_activity">Sign in</string>
+    <string name="title_activity_signUp">Glad you joined CyfaPay!</string>
+    <string name="title_activity_forgot_pw">CyfaPay means Security!</string>
+    <string name="title_activity_payNgo">CyfaPay equals Swift Service!</string>
+
+    <!--Parse Server strings-->
+    <string name="parse_server_url">https://evansdomina.me/parse/</string>
+    <string name="parse_app_id">sparkling-wildflower-2700</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+
+    <!-- Hint words for users -->
+    <string name="hint_mobile_number">Mobile Number</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_new_password">New Password</string>
+    <string name="hint_other_names">Other names</string>
+    <string name="hint_surname">Surname</string>
+    <string name="hint_email_optional">Email (optional)</string>
+    <string name="hint_confirm_password">Confirm Password</string>
+    <string name="hint_your_contact">Your mobile number</string>
+    <string name="hint_receiver_contact">Receiver\'s mobile</string>
+    <string name="hint_amount_owed">Amount to be paid</string>
+    <string name="hint_airtime_sent">Airtime to be sent</string>
+    <string name="hint_pin_code">Enter Pin Code</string>
+    <string name="hint_confirm_pin">Confirm Pin Code</string>
+
+    <!-- Button names -->
+    <string name="tbutton_payandgo">Pay and Go!</string>
+    <string name="tbutton_forgot_password">Forgot Password?</string>
+    <string name="button_log_in">Log In</string>
+    <string name="button_sign_up">Sign Up</string>
+    <string name="button_send">Send</string>
+
+    <!--Error alerts below-->
+    <string name="error_titled">Ooops!</string>
+    <string name="login_error_message">Please enter mobile number and password</string>
+    <string name="signup_error_message">Please enter name, mobile number and password correctly</string>
+    <string name="forgot_error_message">Please enter name, mobile number and new password correctly</string>
+    <string name="error_update">Sorry!</string>
+
+    <string name="new_pin_alert">Kindly check your inbox for your new pin</string>
+    <string name="payngo_update">Thanks for using CyfaPay</string>
+    <string name="transaction_history">Transaction History</string>
+    <string name="purchase_airtime">Buy Airtime</string>
+    <string name="make_payment">Make Payment</string>
+    <string name="empty_transhistory">No transaction details</string>
+
+</resources>

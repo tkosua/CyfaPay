@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <EditText
+            android:id="@+id/text_surname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/text_othernames"
+            android:layout_alignStart="@+id/text_othernames"
+            android:layout_marginBottom="6dp"
+            android:ems="10"
+            android:hint="@string/hint_surname"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/text_othernames"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/text_contact"
+            android:layout_alignStart="@+id/text_contact"
+            android:layout_marginBottom="6dp"
+            android:ems="10"
+            android:hint="@string/hint_other_names"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/text_contact"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/text_email"
+            android:layout_alignStart="@+id/text_email"
+            android:layout_marginBottom="6dp"
+            android:ems="10"
+            android:hint="@string/hint_mobile_number"
+            android:inputType="phone" />
+
+        <EditText
+            android:id="@+id/text_email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/password"
+            android:layout_alignStart="@+id/password"
+            android:layout_marginBottom="6dp"
+            android:ems="10"
+            android:hint="@string/hint_email_optional"
+            android:inputType="textEmailAddress" />
+
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/confirm_password"
+            android:layout_alignStart="@+id/confirm_password"
+            android:layout_marginBottom="6dp"
+            android:ems="10"
+            android:hint="@string/hint_password"
+            android:inputType="textPassword" />
+
+        <EditText
+            android:id="@+id/confirm_password"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="6dp"
+            android:ems="10"
+            android:hint="@string/hint_confirm_password"
+            android:inputType="textPassword"
+            android:layout_above="@+id/button_signup"
+            android:layout_centerHorizontal="true" />
+
+        <Button
+            android:id="@+id/button_signup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:text="@string/button_sign_up" />
+
+    </RelativeLayout>
+
+</LinearLayout>
