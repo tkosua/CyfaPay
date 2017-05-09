@@ -27,13 +27,14 @@ public class FTransHistory extends ListFragment {
 
 
         String[] data = {
-                "D_45.00",
-                "C_65.05",
-                "C_150.00",
-                "C_300.10",
-                "D_13.20",
-                "D_5.00",
-                "C_10.00"
+                "+45.00",
+                "-65.05",
+                "+150.00",
+                "+300.10",
+                "-13.20",
+                "-5.00",
+                "+10.00",
+                "+20.00"
         };
 
         //getActivity used instead of this because of its a List fragment
